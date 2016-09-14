@@ -1,4 +1,3 @@
-local addonName, addon = ...
 local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
 
 local items = {
