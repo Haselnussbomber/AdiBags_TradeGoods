@@ -1,0 +1,7 @@
+## Interface: 70000
+## Title: AdiBags - Trade Goods
+## Version: 1.0.0
+## Author: Haselnussbomber
+## Dependencies: AdiBags
+
+AdiBags_TradeGoods.lua
