@@ -1027,6 +1027,7 @@ local items = {
 		128304, -- Yseralline Seed
 		129032, -- Roseate Pigment
 		129034, -- Sallow Pigment
+		129100, -- Gem Chip
 		129284, -- Aethril Seed
 		129285, -- Dreamleaf Seed
 		129286, -- Foxflower Seed
@@ -1064,6 +1065,8 @@ local items = {
 		140783, -- Predictive Combat Operations Databank
 		140784, -- Fel Piston Stabilizer
 		140785, -- Hardened Circuitboard Plating
+		142335, -- Pristine Falcosaur Feather
+		142336, -- Falcosaur Egg
 	}
 }
 
