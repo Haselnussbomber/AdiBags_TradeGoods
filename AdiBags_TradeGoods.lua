@@ -2,6 +2,7 @@ local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
 
 local items = {
 	[LE_EXPANSION_CLASSIC] = {
+		-- 1.11.1
 		723, -- Goretusk Liver
 		765, -- Silverleaf
 		769, -- Chunk of Boar Meat
@@ -330,6 +331,7 @@ local items = {
 	},
 
 	[LE_EXPANSION_BURNING_CRUSADE] = {
+		-- 2.0.1
 		20816, -- Delicate Copper Wire
 		20817, -- Bronze Setting
 		20963, -- Mithril Filigree
@@ -384,11 +386,9 @@ local items = {
 		23427, -- Eternium Ore
 		23436, -- Living Ruby
 		23437, -- Talasite
-		23438, -- Star of Elune
 		23439, -- Noble Topaz
 		23440, -- Dawnstone
 		23441, -- Nightseye
-		23445, -- Fel Iron Bar
 		23446, -- Adamantite Bar
 		23447, -- Eternium Bar
 		23448, -- Felsteel Bar
@@ -410,7 +410,6 @@ local items = {
 		24272, -- Shadowcloth
 		24477, -- Jaggal Clam Meat
 		24478, -- Jaggal Pearl
-		24479, -- Shadow Pearl
 		25649, -- Knothide Leather Scraps
 		25699, -- Crystal Infused Leather
 		25700, -- Fel Scales
@@ -441,6 +440,11 @@ local items = {
 		31079, -- Mercurial Adamantite
 		31670, -- Raptor Ribs
 		31671, -- Serpent Flesh
+
+		-- 2.1.0
+		23438, -- Star of Elune
+		23445, -- Fel Iron Bar
+		24479, -- Shadow Pearl
 		32227, -- Crimson Spinel
 		32228, -- Empyrean Sapphire
 		32229, -- Lionseye
@@ -449,14 +453,19 @@ local items = {
 		32249, -- Seaspray Emerald
 		32423, -- Icy Blasting Primers
 		32428, -- Heart of Darkness
+
+		-- 2.3.0
 		33823, -- Bloodfin Catfish
 		33824, -- Crescent-Tail Skullfish
+
+		-- 2.4.0
 		34664, -- Sunmote
 		35128, -- Hardened Khorium
 		35562, -- Bear Flank
 	},
 
 	[LE_EXPANSION_WRATH_OF_THE_LICH_KING] = {
+		-- 3.0.1
 		33470, -- Frostweave Cloth
 		33567, -- Borean Leather Scraps
 		33568, -- Borean Leather
@@ -466,13 +475,11 @@ local items = {
 		34055, -- Greater Cosmic Essence
 		34056, -- Lesser Cosmic Essence
 		34057, -- Abyss Crystal
-		34736, -- Chunk o' Mammoth
 		35622, -- Eternal Water
 		35623, -- Eternal Air
 		35624, -- Eternal Earth
 		35625, -- Eternal Life
 		35627, -- Eternal Shadow
-		36782, -- Succulent Clam Meat
 		36783, -- Northsea Pearl
 		36784, -- Siren's Tear
 		36860, -- Eternal Fire
@@ -482,7 +489,6 @@ local items = {
 		36905, -- Lichbloom
 		36906, -- Icethorn
 		36907, -- Talandra's Rose
-		36908, -- Frost Lotus
 		36909, -- Cobalt Ore
 		36910, -- Titanium Ore
 		36912, -- Saronite Ore
@@ -490,22 +496,16 @@ local items = {
 		36916, -- Cobalt Bar
 		36917, -- Bloodstone
 		36918, -- Scarlet Ruby
-		36919, -- Cardinal Ruby
 		36920, -- Sun Crystal
 		36921, -- Autumn's Glow
-		36922, -- King's Amber
 		36923, -- Chalcedony
 		36924, -- Sky Sapphire
-		36925, -- Majestic Zircon
 		36926, -- Shadow Crystal
 		36927, -- Twilight Opal
-		36928, -- Dreadstone
 		36929, -- Huge Citrine
 		36930, -- Monarch Topaz
-		36931, -- Ametrine
 		36932, -- Dark Jade
 		36933, -- Forest Emerald
-		36934, -- Eye of Zul
 		37663, -- Titansteel Bar
 		37700, -- Crystallized Air
 		37701, -- Crystallized Earth
@@ -523,10 +523,6 @@ local items = {
 		39334, -- Dusky Pigment
 		39338, -- Golden Pigment
 		39339, -- Emerald Pigment
-		39340, -- Violet Pigment
-		39341, -- Silvery Pigment
-		39342, -- Nether Pigment
-		39343, -- Azure Pigment
 		39354, -- Light Parchment
 		39469, -- Moonglow Ink
 		39681, -- Handful of Cobalt Bolts
@@ -562,6 +558,15 @@ local items = {
 		41814, -- Glassfin Minnow
 		42225, -- Dragon's Eye
 		42253, -- Iceweb Spider Silk
+
+		-- 3.0.2
+		34736, -- Chunk o' Mammoth
+		36782, -- Succulent Clam Meat
+		36908, -- Frost Lotus
+		39340, -- Violet Pigment
+		39341, -- Silvery Pigment
+		39342, -- Nether Pigment
+		39343, -- Azure Pigment
 		43007, -- Northern Spices
 		43009, -- Shoveltusk Flank
 		43010, -- Worm Meat
@@ -594,27 +599,48 @@ local items = {
 		44499, -- Salvaged Iron Golem Parts
 		44500, -- Elementium-Plated Exhaust Pipe
 		44501, -- Goblin-Machined Piston
+
+		-- 3.0.8
+		44958, -- Ethereal Oil
+
+		-- 3.1.0
 		44834, -- Wild Turkey
 		44835, -- Autumnal Herbs
 		44853, -- Honey
-		44958, -- Ethereal Oil
 		45087, -- Runed Orb
+
+		-- 3.2.0
+		36919, -- Cardinal Ruby
+		36922, -- King's Amber
+		36925, -- Majestic Zircon
+		36928, -- Dreadstone
+		36931, -- Ametrine
+		36934, -- Eye of Zul
 		47556, -- Crusader Orb
+
+		-- 3.3.0
 		49908, -- Primordial Saronite
 	},
 
 	[LE_EXPANSION_CATACLYSM] = {
+		-- 4.0.1
 		51950, -- Pyrium Bar
-		52078, -- Chaos Orb
 		52177, -- Carnelian
 		52178, -- Zephyrite
 		52179, -- Alicite
 		52180, -- Nightstone
 		52181, -- Hessonite
 		52182, -- Jasper
-		52183, -- Pyrite Ore
 		52185, -- Elementium Ore
 		52186, -- Elementium Bar
+		65892, -- Pyrium-Laced Crystalline Vial
+		67229, -- Stag Flank
+		67319, -- Preserved Ogre Eye
+		67335, -- Silver Charm Bracelet
+
+		-- 4.0.3
+		52078, -- Chaos Orb
+		52183, -- Pyrite Ore
 		52188, -- Jeweler's Setting
 		52190, -- Inferno Ruby
 		52191, -- Ocean Sapphire
@@ -683,13 +709,13 @@ local items = {
 		62786, -- Cocoa Beans
 		62791, -- Blood Shrimp
 		65365, -- Folded Obsidium
-		65892, -- Pyrium-Laced Crystalline Vial
 		65893, -- Sands of Time
-		67229, -- Stag Flank
-		67319, -- Preserved Ogre Eye
-		67335, -- Silver Charm Bracelet
 		67749, -- Electrified Ether
+
+		-- 4.1.0
 		69237, -- Living Ember
+
+		-- 4.3.0
 		71805, -- Queen's Garnet
 		71806, -- Lightstone
 		71807, -- Deepholm Iolite
@@ -700,6 +726,7 @@ local items = {
 	},
 
 	[LE_EXPANSION_MISTS_OF_PANDARIA] = {
+		-- 5.0.1
 		72092, -- Ghost Iron Ore
 		72093, -- Kyparite
 		72094, -- Black Trillium Ore
@@ -793,11 +820,17 @@ local items = {
 		85584, -- Silkworm Pupa
 		85585, -- Red Beans
 		89112, -- Mote of Harmony
+
+		-- 5.0.4
 		90146, -- Tinker's Kit
 		90407, -- Sparkling Shard
+
+		-- 5.2.0
 		94111, -- Lightning Steel Ingot
 		94113, -- Jard's Peculiar Energy Source
 		94289, -- Haunting Spirit
+
+		-- 5.3.0
 		97512, -- Ghost Iron Nugget
 		97546, -- Kyparite Fragment
 		97619, -- Torn Green Tea Leaf
@@ -806,6 +839,8 @@ local items = {
 		97622, -- Snow Lily Petal
 		97623, -- Fool's Cap Spores
 		97624, -- Desecrated Herb Pod
+
+		-- 5.4.0
 		98617, -- Hardened Magnificent Hide
 		98619, -- Celestial Cloth
 		98717, -- Balanced Trillium Ingot
@@ -821,6 +856,7 @@ local items = {
 	},
 
 	[LE_EXPANSION_WARLORDS_OF_DRAENOR] = {
+		-- 6.0.1
 		108257, -- Truesteel Ingot
 		108294, -- Silver Ore Nugget
 		108295, -- Tin Ore Nugget
@@ -979,7 +1015,11 @@ local items = {
 		115524, -- Taladite Crystal
 		116053, -- Draenic Seeds
 		118472, -- Savage Blood
+
+		-- 6.0.3
 		120945, -- Primal Spirit
+
+		-- 6.2.0
 		124669, -- Darkmoon Daggermaw
 		127759, -- Felblight
 		128499, -- Fel Egg
@@ -987,6 +1027,7 @@ local items = {
 	},
 
 	[LE_EXPANSION_LEGION] = {
+		-- 7.0.3
 		123918, -- Leystone Ore
 		123919, -- Felslate
 		124101, -- Aethril
@@ -1057,6 +1098,10 @@ local items = {
 		133680, -- Slice of Bacon
 		136533, -- Dreadhide Leather
 		136534, -- Gravenscale
+		136633, -- Loose Trigger
+		136636, -- Sniping Scope
+		136637, -- Oversized Blasting Cap
+		136638, -- True Iron Barrel
 		137595, -- Viscous Transmutagen
 		137596, -- Black Transmutagen
 		137597, -- Oily Transmutagen
@@ -1065,8 +1110,13 @@ local items = {
 		140783, -- Predictive Combat Operations Databank
 		140784, -- Fel Piston Stabilizer
 		140785, -- Hardened Circuitboard Plating
+
+		-- 7.1.0
 		142335, -- Pristine Falcosaur Feather
 		142336, -- Falcosaur Egg
+
+		-- 7.1.5
+		144329, -- Hardened Felglass
 	}
 }
 
