@@ -1117,6 +1117,19 @@ local items = {
 
 		-- 7.1.5
 		144329, -- Hardened Felglass
+
+		-- 7.3.0
+		151564, -- Empyrium
+		151565, -- Astral Glory
+		151566, -- Fiendish Leather
+		151567, -- Lightweave Cloth
+		151568, -- Primal Sargerite
+		151579, -- Labradorite
+		151718, -- Argulite
+		151719, -- Lightsphene
+		151720, -- Chemirine
+		151721, -- Hesselian
+		151722, -- Florid Malachite
 	}
 }
 

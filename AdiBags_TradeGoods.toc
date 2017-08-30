@@ -1,6 +1,6 @@
-## Interface: 72000
+## Interface: 73000
 ## Title: AdiBags - Trade Goods
-## Version: 1.0.2
+## Version: 1.0.3
 ## Author: Haselnussbomber
 ## Dependencies: AdiBags
 
