@@ -1130,6 +1130,89 @@ local items = {
 		151720, -- Chemirine
 		151721, -- Hesselian
 		151722, -- Florid Malachite
+	},
+
+	[LE_EXPANSION_BATTLE_FOR_AZEROTH] = {
+		-- 8.0.1
+		152505, -- Riverbud
+		152506, -- Star Moss
+		152507, -- Akunda's Bite
+		152508, -- Winter's Kiss
+		152509, -- Siren's Pollen
+		152510, -- Anchor Weed
+		152511, -- Sea Stalk
+		152512, -- Monelite Ore
+		152513, -- Platinum Ore
+		152541, -- Coarse Leather
+		152542, -- Hardened Tempest Hide
+		152543, -- Sand Shifter
+		152544, -- Slimy Mackerel
+		152545, -- Frenzied Fangtooth
+		152546, -- Lane Snapper
+		152547, -- Great Sea Catfish
+		152548, -- Tiragarde Perch
+		152549, -- Redtail Loach
+		152576, -- Tidespray Linen
+		152577, -- Deep Sea Satin
+		152579, -- Storm Silver Ore
+		152631, -- Briny Flesh
+		152668, -- Expulsom
+		152875, -- Gloom Dust
+		152876, -- Umbra Shard
+		152877, -- Veiled Crystal
+		153050, -- Shimmerscale
+		153051, -- Mistscale
+		153635, -- Ultramarine Pigment
+		153636, -- Crimson Pigment
+		153669, -- Viridescent Pigment
+		153700, -- Golden Beryl
+		153701, -- Rubellite
+		153702, -- Kubiline
+		153703, -- Solstone
+		153704, -- Viridium
+		153705, -- Kyanite
+		153706, -- Kraken's Eye
+		154120, -- Owlseye
+		154121, -- Scarlet Diamond
+		154122, -- Tidal Amethyst
+		154123, -- Amberblaze
+		154124, -- Laribole
+		154125, -- Royal Quartz
+		154164, -- Blood-Stained Bone
+		154165, -- Calcified Bone
+		154722, -- Tempest Hide
+		154897, -- Stringy Loins
+		154898, -- Meaty Haunch
+		154899, -- Thick Paleo Steak
+		158186, -- Distilled Water
+		158187, -- Ultramarine Ink
+		158188, -- Crimson Ink
+		158189, -- Viridescent Ink
+		158205, -- Acacia Powder
+		158378, -- Embroidered Deep Sea Satin
+		159959, -- Nylon Thread
+		160059, -- Amber Tanning Oil
+		160298, -- Durable Flux
+		160398, -- Choral Honey
+		160399, -- Wild Flour
+		160400, -- Foosaka
+		160502, -- Chemical Blasting Cap
+		160709, -- Fresh Potato
+		160710, -- Wild Berries
+		160711, -- Aromatic Fish Oil
+		160712, -- Powdered Sugar
+		161131, -- Barely Stable Azerite Reactor
+		161132, -- Crush Resistant Stabilizer
+		161136, -- Azerite Forged Protection Plating
+		161137, -- Blast-Fired Electric Servomotor
+		162460, -- Hydrocore
+		162461, -- Sanguicell
+		162515, -- Midnight Salmon
+		162516, -- Rasboralus
+		162517, -- U'taka
+		163203, -- Hypersensitive Azeritometer Sensor
+		163569, -- Insulated Wiring
+		163782, -- Cursed Haunch
 	}
 }
 
