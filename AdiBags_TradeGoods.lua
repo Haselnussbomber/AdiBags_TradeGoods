@@ -1213,6 +1213,10 @@ local items = {
 		163203, -- Hypersensitive Azeritometer Sensor
 		163569, -- Insulated Wiring
 		163782, -- Cursed Haunch
+
+		-- 8.1.0
+		165703, -- Breath of Bwonsamdi
+		165948, -- Tidalcore
 	}
 }
 
