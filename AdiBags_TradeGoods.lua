@@ -1217,6 +1217,9 @@ local items = {
 		-- 8.1.0
 		165703, -- Breath of Bwonsamdi
 		165948, -- Tidalcore
+
+		-- 8.1.5
+		167738, -- Gilded Seaweave
 	}
 }
 
