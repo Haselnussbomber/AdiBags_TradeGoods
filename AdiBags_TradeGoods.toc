@@ -1,4 +1,4 @@
-## Interface: 80100
+## Interface: 80200
 ## Title: AdiBags - Trade Goods
 ## Version: 1.0.6
 ## Author: Haselnussbomber
