@@ -1220,6 +1220,26 @@ local items = {
 
 		-- 8.1.5
 		167738, -- Gilded Seaweave
+
+		-- 8.2.0
+		168188, -- Sage Agate
+		168189, -- Dark Opal
+		168190, -- Lava Lazuli
+		168191, -- Sea Currant
+		168192, -- Sand Spinel
+		168193, -- Azsharine
+		168635, -- Leviathan's Eye
+		168185, -- Osmenite Ore
+		168262, -- Sentry Fish
+		168302, -- Viper Fish
+		168303, -- Rubbery Flank
+		168487, -- Zin'anthid
+		168645, -- Moist Fillet
+		168646, -- Mauve Stinger
+		168649, -- Dredged Leather
+		168650, -- Cragscale
+		168662, -- Maroon Pigment
+		168663, -- Maroon Ink
 	}
 }
 
