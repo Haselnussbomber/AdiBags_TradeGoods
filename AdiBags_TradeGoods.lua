@@ -1229,6 +1229,11 @@ local filter = AdiBags:RegisterFilter("TradeGoods", 92, "ABEvent-1.0")
 filter.uiName = AUCTION_CATEGORY_TRADE_GOODS
 
 function filter:Filter(slotData)
+	local isCraftingReagent = select(17, GetItemInfo(slotData.itemId))
+	if not isCraftingReagent then
+		return
+	end
+
 	for expansionLevel, expansionItems in pairs(items) do
 		if tContains(expansionItems, slotData.itemId) then
 			return AUCTION_CATEGORY_TRADE_GOODS .. ": " .. _G["EXPANSION_NAME" .. expansionLevel]
