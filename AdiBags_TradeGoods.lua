@@ -1,3 +1,4 @@
+local tContains = tContains
 local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
 
 local items = {
