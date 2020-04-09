@@ -1241,6 +1241,11 @@ local items = {
 		168650, -- Cragscale
 		168662, -- Maroon Pigment
 		168663, -- Maroon Ink
+
+		-- 8.3.0
+		174353, -- Questionable Meat
+		174327, -- Malformed Gnasher
+		174328, -- Aberrant Voidfin
 	}
 }
 
