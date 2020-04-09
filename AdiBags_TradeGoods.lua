@@ -1246,6 +1246,92 @@ local items = {
 		174353, -- Questionable Meat
 		174327, -- Malformed Gnasher
 		174328, -- Aberrant Voidfin
+
+		-- 9.0.1
+		172934, -- Handful of Laestrite Bolts
+		172935, -- Porous Polishing Abrasive
+		172936, -- Mortal Coiled Spring
+		172937, -- Wormfed Gear Assembly
+		176448, -- Soul Battery
+		173108, -- Oriblase
+		173109, -- Angerseye
+		173110, -- Umbryl
+		173111, -- 9.x Raw Rare
+		173115, -- 9.x Raw Yellow
+		173116, -- 9.x Raw Red
+		173117, -- 9.x Raw Blue
+		173202, -- Shrouded Cloth
+		172089, -- Desolate Leather
+		172090, -- Sorrowscale Fragment
+		172092, -- Sorrowscale
+		172093, -- Desolate Leather Scraps
+		172094, -- Desolate Hide
+		172095, -- Desolate Hide Scraps
+		172096, -- Heavy Desolate Leather
+		172097, -- Heavy Desolate Hide
+		172330, -- Unseelie Leather
+		172331, -- Sinful Leather
+		172332, -- Necrotic Leather
+		172333, -- Purified Leather
+		172334, -- Leatherworking Reagent 05
+		172335, -- Leatherworking Reagent 06
+		172336, -- Leatherworking Reagent 07
+		172337, -- Leatherworking Reagent 08
+		177279, -- Desolate Sinew
+		177281, -- Heavy Sorrowscale
+		171828, -- Laestrite Ore
+		171829, -- Solenium Ore
+		171830, -- Oxxein Ore
+		171831, -- Phaedrum Ore
+		171832, -- Sinvyr Ore
+		171833, -- Elethium Ore
+		171834, -- Laestrite Nugget
+		171835, -- Solenium Nugget
+		171836, -- Oxxein Nugget
+		171837, -- Phaedrum Nugget
+		171838, -- Sinvyr Nugget
+		171839, -- Elethium Nugget
+		171840, -- Porous Stone
+		171841, -- Shaded Stone
+		172926, -- Solxein Alloy
+		172927, -- Phaevyr Alloy
+		172052, -- Otherworldly Meat
+		172053, -- Tenebrous Ribs
+		172054, -- Seraphic Wing
+		172055, -- Mysterious Meat
+		172056, -- Thade Sauce
+		172057, -- Wealdwood Syrup
+		172058, -- Humbling Pepper
+		172059, -- Hellsung Garlic
+		173032, -- Lost Sole
+		173033, -- Iridescent Amberjack
+		173034, -- Silvergill Pike
+		173035, -- Pocked Bonefish
+		173036, -- Spinefin Piranha
+		173037, -- Elysian Thade
+		175111, -- Marrow Larva
+		178786, -- Sinegar
+		178787, -- Acrid Coriander
+		170554, -- Vigil's Torch
+		171293, -- Alchemical Concoction
+		171294, -- Slippery Concoction
+		171295, -- Bolstering Concoction
+		171296, -- Brilliant Concoction
+		171297, -- Culinary Concoction
+		171420, -- Beast Slayer
+		171421, -- Freak Slayer
+		171422, -- Ghoul Slayer
+		171423, -- Man Slayer
+		173160, -- Jewelcrafting - Modified Crafting Reagent 01
+		173161, -- Jewelcrafting - Modified Crafting Reagent 02
+		173381, -- Word of Power I
+		173382, -- Word of Power II
+		175886, -- Dark Parchment
+		175923, -- Ardenwood
+		177062, -- Penumbra Thread
+		172230, -- Soul Dust
+		172231, -- Sacred Shard
+		172232, -- Eternal Crystal
 	}
 }
 
