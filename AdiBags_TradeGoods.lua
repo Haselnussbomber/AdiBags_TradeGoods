@@ -1246,39 +1246,20 @@ local items = {
 		174353, -- Questionable Meat
 		174327, -- Malformed Gnasher
 		174328, -- Aberrant Voidfin
+	},
 
+	[LE_EXPANSION_SHADOWLANDS] = {
 		-- 9.0.1
-		172934, -- Handful of Laestrite Bolts
-		172935, -- Porous Polishing Abrasive
-		172936, -- Mortal Coiled Spring
-		172937, -- Wormfed Gear Assembly
-		176448, -- Soul Battery
-		173108, -- Oriblase
-		173109, -- Angerseye
-		173110, -- Umbryl
-		173111, -- 9.x Raw Rare
-		173115, -- 9.x Raw Yellow
-		173116, -- 9.x Raw Red
-		173117, -- 9.x Raw Blue
-		173202, -- Shrouded Cloth
-		172089, -- Desolate Leather
-		172090, -- Sorrowscale Fragment
-		172092, -- Sorrowscale
-		172093, -- Desolate Leather Scraps
-		172094, -- Desolate Hide
-		172095, -- Desolate Hide Scraps
-		172096, -- Heavy Desolate Leather
-		172097, -- Heavy Desolate Hide
-		172330, -- Unseelie Leather
-		172331, -- Sinful Leather
-		172332, -- Necrotic Leather
-		172333, -- Purified Leather
-		172334, -- Leatherworking Reagent 05
-		172335, -- Leatherworking Reagent 06
-		172336, -- Leatherworking Reagent 07
-		172337, -- Leatherworking Reagent 08
-		177279, -- Desolate Sinew
-		177281, -- Heavy Sorrowscale
+		170554, -- Vigil's Torch
+		171287, -- Ground Death Blossom
+		171288, -- Ground Vigil's Torch
+		171289, -- Ground Widowbloom
+		171290, -- Ground Marrowroot
+		171291, -- Ground Rising Glory
+		171292, -- Ground Nightshade
+		171293, -- Alchemist's Pouch
+		171420, -- Reinforced Girdle
+		171428, -- Shadowghast Ingot
 		171828, -- Laestrite Ore
 		171829, -- Solenium Ore
 		171830, -- Oxxein Ore
@@ -1293,45 +1274,104 @@ local items = {
 		171839, -- Elethium Nugget
 		171840, -- Porous Stone
 		171841, -- Shaded Stone
-		172926, -- Solxein Alloy
-		172927, -- Phaevyr Alloy
-		172052, -- Otherworldly Meat
+		172052, -- Aethereal Meat
 		172053, -- Tenebrous Ribs
-		172054, -- Seraphic Wing
-		172055, -- Mysterious Meat
-		172056, -- Thade Sauce
-		172057, -- Wealdwood Syrup
-		172058, -- Humbling Pepper
-		172059, -- Hellsung Garlic
+		172054, -- Raw Seraphic Wing
+		172055, -- Phantasmal Haunch
+		172056, -- Medley of Transplanar Spices
+		172057, -- Inconceivably Aged Vinegar
+		172058, -- Smuggled Azerothian Produce
+		172059, -- Rich Grazer Milk
+		172089, -- Desolate Leather
+		172090, -- Sorrowscale Fragment
+		172092, -- Pallid Bone
+		172093, -- Desolate Leather Scraps
+		172094, -- Callous Hide
+		172095, -- Callous Hide Scraps
+		172096, -- Heavy Desolate Leather
+		172097, -- Heavy Callous Hide
+		172230, -- Soul Dust
+		172231, -- Sacred Shard
+		172232, -- Eternal Crystal
+		172330, -- Unseelie Leather
+		172331, -- Sinful Leather
+		172332, -- Necrotic Leather
+		172333, -- Purified Leather
+		172334, -- Leatherworking Reagent 05
+		172335, -- Leatherworking Reagent 06
+		172336, -- Leatherworking Reagent 07
+		172337, -- Leatherworking Reagent 08
+		172338, -- Loosened Belt
+		172438, -- Enchanted Heavy Callous Hide
+		172439, -- Enchanted Lightless Silk
+		172926, -- Necrostatic Micro Capacitor
+		172928, -- Hydrodynamic Accelerators
+		172934, -- Handful of Laestrite Bolts
+		172935, -- Porous Polishing Abrasive
+		172936, -- Mortal Coiled Spring
+		172937, -- Wormfed Gear Assembly
 		173032, -- Lost Sole
 		173033, -- Iridescent Amberjack
 		173034, -- Silvergill Pike
 		173035, -- Pocked Bonefish
 		173036, -- Spinefin Piranha
 		173037, -- Elysian Thade
+		173060, -- Aerated Water
+		173108, -- Oriblase
+		173109, -- Angerseye
+		173110, -- Umbryl
+		173111, -- 9.x Raw Rare
+		173115, -- 9.x Raw Yellow
+		173116, -- 9.x Raw Red
+		173117, -- 9.x Raw Blue
+		173160, -- Missive of Haste
+		173161, -- Missive of Critical Strike
+		173162, -- Missive of Mastery
+		173163, -- Missive of Versatility
+		173168, -- Laestrite Setting
+		173169, -- Elethium Setting
+		173170, -- Essence of Rebirth
+		173171, -- Essence of Suffering
+		173172, -- Essence of Servitude
+		173173, -- Essence of Valor
+		173202, -- Shrouded Cloth
+		173204, -- Lightless Silk
+		173258, -- Craftman's Pouch
+		173381, -- Crafter's Mark I
+		173382, -- Crafter's Mark II
+		173383, -- Crafter's Mark III
+		173384, -- Crafter's Mark IV
 		175111, -- Marrow Larva
-		178786, -- Sinegar
-		178787, -- Acrid Coriander
-		170554, -- Vigil's Torch
-		171293, -- Alchemical Concoction
-		171294, -- Slippery Concoction
-		171295, -- Bolstering Concoction
-		171296, -- Brilliant Concoction
-		171297, -- Culinary Concoction
-		171420, -- Beast Slayer
-		171421, -- Freak Slayer
-		171422, -- Ghoul Slayer
-		171423, -- Man Slayer
-		173160, -- Jewelcrafting - Modified Crafting Reagent 01
-		173161, -- Jewelcrafting - Modified Crafting Reagent 02
-		173381, -- Word of Power I
-		173382, -- Word of Power II
 		175886, -- Dark Parchment
 		175923, -- Ardenwood
+		177061, -- Twilight Bark
 		177062, -- Penumbra Thread
-		172230, -- Soul Dust
-		172231, -- Sacred Shard
-		172232, -- Eternal Crystal
+		177279, -- Gaunt Sinew
+		177840, -- Blank Card of the Indomitable
+		177841, -- Blank Card of Voracity
+		177842, -- Blank Card of Repose
+		177843, -- Blank Card of Putresence
+		178786, -- Lusterwheat Flour
+		178787, -- Orboreal Shard
+		179314, -- Creeping Crawler Meat
+		179315, -- Shadowy Shank
+		179862, -- Luxurious Feather
+		179919, -- Shadowy Rabbit's Foot
+		180055, -- Relic of the Past I
+		180057, -- Relic of the Past II
+		180058, -- Relic of the Past III
+		180059, -- Relic of the Past IV
+		180060, -- Relic of the Past V
+		180457, -- Shadestone
+		180732, -- Rune Etched Vial
+		180733, -- Luminous Flux
+		183942, -- Novice Crafter's Mark
+		183950, -- Distilled Death Extract
+		183951, -- Immortal Shard
+		183952, -- Machinist's Oil
+		183953, -- Sealing Wax
+		183954, -- Malleable Wire
+		183955, -- Curing Salt
 	}
 }
 
