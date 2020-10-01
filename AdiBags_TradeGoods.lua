@@ -1223,18 +1223,18 @@ local items = {
 		167738, -- Gilded Seaweave
 
 		-- 8.2.0
+		168185, -- Osmenite Ore
 		168188, -- Sage Agate
 		168189, -- Dark Opal
 		168190, -- Lava Lazuli
 		168191, -- Sea Currant
 		168192, -- Sand Spinel
 		168193, -- Azsharine
-		168635, -- Leviathan's Eye
-		168185, -- Osmenite Ore
 		168262, -- Sentry Fish
 		168302, -- Viper Fish
 		168303, -- Rubbery Flank
 		168487, -- Zin'anthid
+		168635, -- Leviathan's Eye
 		168645, -- Moist Fillet
 		168646, -- Mauve Stinger
 		168649, -- Dredged Leather
@@ -1243,9 +1243,9 @@ local items = {
 		168663, -- Maroon Ink
 
 		-- 8.3.0
-		174353, -- Questionable Meat
 		174327, -- Malformed Gnasher
 		174328, -- Aberrant Voidfin
+		174353, -- Questionable Meat
 	},
 
 	[LE_EXPANSION_SHADOWLANDS] = {
