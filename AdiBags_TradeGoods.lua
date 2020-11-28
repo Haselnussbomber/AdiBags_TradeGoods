@@ -1,5 +1,6 @@
 local tContains = tContains
-local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
+local GetItemInfo = GetItemInfo
+local BAG_FILTER_TRADE_GOODS = BAG_FILTER_TRADE_GOODS
 
 local items = {
 	[LE_EXPANSION_CLASSIC] = {
@@ -1283,7 +1284,6 @@ local items = {
 		172058, -- Smuggled Azerothian Produce
 		172059, -- Rich Grazer Milk
 		172089, -- Desolate Leather
-		172090, -- Sorrowscale Fragment
 		172092, -- Pallid Bone
 		172093, -- Desolate Leather Scraps
 		172094, -- Callous Hide
@@ -1316,6 +1316,10 @@ local items = {
 		173035, -- Pocked Bonefish
 		173036, -- Spinefin Piranha
 		173037, -- Elysian Thade
+		173056, -- Umbral Pigment
+		173057, -- Luminous Pigment
+		173058, -- Umbral Ink
+		173059, -- Luminous Ink
 		173060, -- Aerated Water
 		173108, -- Oriblase
 		173109, -- Angerseye
@@ -1331,7 +1335,7 @@ local items = {
 		173168, -- Laestrite Setting
 		173169, -- Elethium Setting
 		173170, -- Essence of Rebirth
-		173171, -- Essence of Suffering
+		173171, -- Essence of Torment
 		173172, -- Essence of Servitude
 		173173, -- Essence of Valor
 		173202, -- Shrouded Cloth
@@ -1342,8 +1346,10 @@ local items = {
 		173383, -- Crafter's Mark III
 		173384, -- Crafter's Mark IV
 		175111, -- Marrow Larva
+		175788, -- Tranquil Pigment
 		175886, -- Dark Parchment
 		175923, -- Ardenwood
+		175970, -- Tranquil Ink
 		177061, -- Twilight Bark
 		177062, -- Penumbra Thread
 		177279, -- Gaunt Sinew
@@ -1375,8 +1381,8 @@ local items = {
 	}
 }
 
-local filter = AdiBags:RegisterFilter("TradeGoods", 92, "ABEvent-1.0")
-
+local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
+local filter = AdiBags:RegisterFilter("TradeGoods", 92)
 filter.uiName = BAG_FILTER_TRADE_GOODS
 
 function filter:Filter(slotData)

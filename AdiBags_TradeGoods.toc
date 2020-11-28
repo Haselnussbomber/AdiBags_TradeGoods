@@ -1,6 +1,6 @@
-## Interface: 90001
+## Interface: 90002
 ## Title: AdiBags - Trade Goods
-## Version: 1.0.7
+## Version: 1.0.8
 ## Author: Haselnussbomber
 ## Dependencies: AdiBags
 
