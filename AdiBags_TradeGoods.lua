@@ -128,7 +128,9 @@ local items = {
 		4611, -- Blue Pearl
 		4625, -- Firebloom
 		4655, -- Giant Clam Meat
+		5051, -- Dig Rat
 		5082, -- Thin Kodo Leather
+		5373, -- Lucky Charm
 		5465, -- Small Spider Leg
 		5466, -- Scorpid Stinger
 		5467, -- Kodo Meat
@@ -232,13 +234,13 @@ local items = {
 		11139, -- Large Glowing Shard
 		11174, -- Lesser Nether Essence
 		11175, -- Greater Nether Essence
-		11176, -- Dream Dust
 		11177, -- Small Radiant Shard
 		11178, -- Large Radiant Shard
 		11291, -- Star Wood
 		11370, -- Dark Iron Ore
 		11371, -- Dark Iron Bar
 		11382, -- Blood of the Mountain
+		11754, -- Black Diamond
 		12037, -- Mystery Meat
 		12184, -- Raptor Flesh
 		12202, -- Tiger Meat
@@ -255,6 +257,7 @@ local items = {
 		12363, -- Arcane Crystal
 		12364, -- Huge Emerald
 		12365, -- Dense Stone
+		12607, -- Brilliant Chromatic Scale
 		12644, -- Dense Grinding Stone
 		12655, -- Enchanted Thorium Bar
 		12662, -- Demonic Rune
@@ -266,6 +269,7 @@ local items = {
 		12809, -- Guardian Stone
 		12810, -- Enchanted Leather
 		12811, -- Righteous Orb
+		12938, -- Blood of Heroes
 		13422, -- Stonescale Eel
 		13423, -- Stonescale Oil
 		13463, -- Dreamfoil
@@ -306,13 +310,15 @@ local items = {
 		16006, -- Delicate Arcanite Converter
 		16202, -- Lesser Eternal Essence
 		16203, -- Greater Eternal Essence
-		16204, -- Illusion Dust
+		16204, -- Light Illusion Dust
 		17010, -- Fiery Core
 		17011, -- Lava Core
 		17012, -- Core Leather
 		17056, -- Light Feather
+		17194, -- Holiday Spices
 		17203, -- Sulfuron Ingot
 		18240, -- Ogre Tannin
+		18335, -- Pristine Black Diamond
 		18562, -- Elementium Ingot
 		18567, -- Elemental Flux
 		18631, -- Truesilver Transformer
@@ -426,6 +432,7 @@ local items = {
 		27437, -- Icefin Bluefish
 		27438, -- Golden Darter
 		27439, -- Furious Crawdad
+		27515, -- Huge Spotted Feltail
 		27668, -- Lynx Meat
 		27669, -- Bat Flesh
 		27671, -- Buzzard Meat
@@ -447,6 +454,7 @@ local items = {
 		23438, -- Star of Elune
 		23445, -- Fel Iron Bar
 		24479, -- Shadow Pearl
+		27516, -- Enormous Barbed Gill Trout
 		32227, -- Crimson Spinel
 		32228, -- Empyrean Sapphire
 		32229, -- Lionseye
@@ -821,7 +829,12 @@ local items = {
 		85583, -- Needle Mushrooms
 		85584, -- Silkworm Pupa
 		85585, -- Red Beans
+		87399, -- Restored Artifact
+		87828, -- Tigersblood Pigment
 		89112, -- Mote of Harmony
+
+		-- 5.0.3
+		89639, -- Desecrated Herb
 
 		-- 5.0.4
 		90146, -- Tinker's Kit
@@ -1017,6 +1030,17 @@ local items = {
 		115524, -- Taladite Crystal
 		116053, -- Draenic Seeds
 		118472, -- Savage Blood
+		118564, -- Small Savage Piranha
+		118566, -- Enormous Savage Piranha
+
+		-- 6.0.2
+		115002, -- Raw Beast Hide
+		119810, -- Meaty Caged Beast
+		119813, -- Furry Caged Beast
+		119814, -- Leathery Caged Beast
+		119815, -- Caged Mighty Wolf
+		119817, -- Caged Mighty Riverbeast
+		119819, -- Caged Mighty Clefthoof
 
 		-- 6.0.3
 		120945, -- Primal Spirit
@@ -1064,6 +1088,7 @@ local items = {
 		124442, -- Chaos Crystal
 		124444, -- Infernal Brimstone
 		124461, -- Demonsteel Bar
+		124632, -- Incandescent Blood
 		127004, -- Imbued Silkweave
 		127037, -- Runic Catgut
 		127681, -- Sharp Spritethorn
@@ -1098,8 +1123,12 @@ local items = {
 		133593, -- Royal Olive
 		133607, -- Silver Mackerel
 		133680, -- Slice of Bacon
+		133912, -- Nomi's Silver Mackerel
+		135500, -- Singed Fjarnskaggl
+		136342, -- Obliterum Ash
 		136533, -- Dreadhide Leather
 		136534, -- Gravenscale
+		136538, -- Namha's Stonehide Leather
 		136633, -- Loose Trigger
 		136636, -- Sniping Scope
 		136637, -- Oversized Blasting Cap
@@ -1107,6 +1136,8 @@ local items = {
 		137595, -- Viscous Transmutagen
 		137596, -- Black Transmutagen
 		137597, -- Oily Transmutagen
+		137609, -- Wood
+		138296, -- Hatecoil Glyptic
 		140781, -- X-87 Battle Circuit
 		140782, -- Neural Net Detangler
 		140783, -- Predictive Combat Operations Databank
@@ -1114,6 +1145,7 @@ local items = {
 		140785, -- Hardened Circuitboard Plating
 
 		-- 7.1.0
+		142266, -- Handful of Gizmos
 		142335, -- Pristine Falcosaur Feather
 		142336, -- Falcosaur Egg
 
@@ -1132,6 +1164,9 @@ local items = {
 		151720, -- Chemirine
 		151721, -- Hesselian
 		151722, -- Florid Malachite
+
+		-- 7.3.5
+		156930, -- Rich Illusion Dust
 	},
 
 	[LE_EXPANSION_BATTLE_FOR_AZEROTH] = {
@@ -1199,6 +1234,7 @@ local items = {
 		160399, -- Wild Flour
 		160400, -- Foosaka
 		160502, -- Chemical Blasting Cap
+		160705, -- Major's Frothy Coffee
 		160709, -- Fresh Potato
 		160710, -- Wild Berries
 		160711, -- Aromatic Fish Oil
@@ -1214,6 +1250,18 @@ local items = {
 		162517, -- U'taka
 		163203, -- Hypersensitive Azeritometer Sensor
 		163569, -- Insulated Wiring
+		163588, -- Flourishing Sea Stalk
+		163595, -- Flourishing Riverbud
+		163601, -- Overgrown Anchor Weed
+		163609, -- Luminous Monelite
+		163623, -- Gleaming Storm Silver
+		163624, -- Burnished Platinum
+		163625, -- Rough Monelite
+		163626, -- Coarse Storm Silver
+		163627, -- Smooth Platinum
+		163628, -- Hardened Monelite
+		163629, -- Dense Storm Silver
+		163630, -- Ductile Platinum
 		163782, -- Cursed Haunch
 
 		-- 8.1.0
@@ -1224,6 +1272,10 @@ local items = {
 		167738, -- Gilded Seaweave
 
 		-- 8.2.0
+		166846, -- Spare Parts
+		166970, -- Energy Cell
+		166971, -- Empty Energy Cell
+		167562, -- Ionized Minnow
 		168185, -- Osmenite Ore
 		168188, -- Sage Agate
 		168189, -- Dark Opal
@@ -1234,7 +1286,12 @@ local items = {
 		168262, -- Sentry Fish
 		168302, -- Viper Fish
 		168303, -- Rubbery Flank
+		168327, -- Chain Ignitercoil
 		168487, -- Zin'anthid
+		168583, -- Widowbloom
+		168586, -- Rising Glory
+		168589, -- Marrowroot
+		168591, -- Marrowroot Petal
 		168635, -- Leviathan's Eye
 		168645, -- Moist Fillet
 		168646, -- Mauve Stinger
@@ -1242,8 +1299,16 @@ local items = {
 		168650, -- Cragscale
 		168662, -- Maroon Pigment
 		168663, -- Maroon Ink
+		168832, -- Galvanic Oscillator
+		169550, -- Rising Glory Petal
+		169610, -- S.P.A.R.E. Crate
+		169698, -- Widowbloom Petal
+		169699, -- Vigil's Torch Petal
+		169700, -- Death Blossom Petal
+		169701, -- Death Blossom
 
 		-- 8.3.0
+		171315, -- Nightshade
 		174327, -- Malformed Gnasher
 		174328, -- Aberrant Voidfin
 		174353, -- Questionable Meat
@@ -1261,6 +1326,12 @@ local items = {
 		171293, -- Alchemist's Pouch
 		171420, -- Reinforced Girdle
 		171428, -- Shadowghast Ingot
+		171430, -- Blacksmithing Reagent 03
+		171431, -- Blacksmithing Reagent 04
+		171432, -- Blacksmithing Reagent 05
+		171433, -- Blacksmithing Reagent 06
+		171434, -- Blacksmithing Reagent 07
+		171435, -- Blacksmithing Reagent 08
 		171828, -- Laestrite Ore
 		171829, -- Solenium Ore
 		171830, -- Oxxein Ore
@@ -1302,6 +1373,7 @@ local items = {
 		172336, -- Leatherworking Reagent 07
 		172337, -- Leatherworking Reagent 08
 		172338, -- Loosened Belt
+		172437, -- Enchanted Elethium Bar
 		172438, -- Enchanted Heavy Callous Hide
 		172439, -- Enchanted Lightless Silk
 		172926, -- Necrostatic Micro Capacitor
@@ -1310,6 +1382,10 @@ local items = {
 		172935, -- Porous Polishing Abrasive
 		172936, -- Mortal Coiled Spring
 		172937, -- Wormfed Gear Assembly
+		172938, -- Engineering Reagent 05
+		172939, -- Engineering Reagent 06
+		172940, -- Engineering Reagent 07
+		172941, -- Engineering Reagent 08
 		173032, -- Lost Sole
 		173033, -- Iridescent Amberjack
 		173034, -- Silvergill Pike
@@ -1328,6 +1404,10 @@ local items = {
 		173115, -- 9.x Raw Yellow
 		173116, -- 9.x Raw Red
 		173117, -- 9.x Raw Blue
+		173127, -- Deadly Jewel Cluster
+		173128, -- Quick Jewel Cluster
+		173129, -- Versatile Jewel Cluster
+		173130, -- Masterful Jewel Cluster
 		173160, -- Missive of Haste
 		173161, -- Missive of Critical Strike
 		173162, -- Missive of Mastery
@@ -1357,6 +1437,7 @@ local items = {
 		177841, -- Blank Card of Voracity
 		177842, -- Blank Card of Repose
 		177843, -- Blank Card of Putresence
+		178061, -- Malleable Flesh
 		178786, -- Lusterwheat Flour
 		178787, -- Orboreal Shard
 		179314, -- Creeping Crawler Meat
@@ -1369,8 +1450,36 @@ local items = {
 		180059, -- Relic of the Past IV
 		180060, -- Relic of the Past V
 		180457, -- Shadestone
+		180477, -- Elysian Feathers
+		180478, -- Champion's Pelt
+		180594, -- Calloused Bone
+		180595, -- Nightforged Steel
 		180732, -- Rune Etched Vial
 		180733, -- Luminous Flux
+		181371, -- Spare Head
+		181797, -- Strange Cloth
+		181798, -- Stuffed Construct
+		181799, -- Extra Large Hat
+		183743, -- Malleable Flesh
+		183744, -- Superior Parts
+		183752, -- Empty Nightcap Cask
+		183754, -- Stitchflesh's Design Notes
+		183755, -- Ardenweald Wreath
+		183756, -- Floating Circlet
+		183759, -- Unusually Large Cranium
+		183760, -- Venthyr Spectacles
+		183786, -- Happiness Bird
+		183789, -- Six-League Pack
+		183824, -- Cache of Spare Weapons
+		183825, -- Oversized Monocle
+		183826, -- Big Floppy Hat
+		183827, -- Blacksteel Backplate
+		183828, -- Friendly Bugs
+		183829, -- Slime Cat
+		183830, -- Do It Yourself Flag Kit
+		183831, -- Safe Fall Kit
+		183833, -- Kash's Bag of Junk
+		183873, -- Otherworldy Tea Set
 		183942, -- Novice Crafter's Mark
 		183950, -- Distilled Death Extract
 		183951, -- Immortal Shard
@@ -1378,6 +1487,19 @@ local items = {
 		183953, -- Sealing Wax
 		183954, -- Malleable Wire
 		183955, -- Curing Salt
+		184036, -- Dundae's Hat
+		184037, -- Maldraxxus Candles
+		184038, -- Trained Corpselice
+		184039, -- Clean White Hat
+		184040, -- Broken Egg Shells
+		184041, -- Festive Umbrella
+
+		-- 9.0.2
+		184203, -- Fungal Hair Tonic
+		184204, -- Otherworld Hat
+		184205, -- Long Lost Crown
+		184224, -- Dapperling Seeds
+		184225, -- Small Posable Skeleton
 	}
 }
 
