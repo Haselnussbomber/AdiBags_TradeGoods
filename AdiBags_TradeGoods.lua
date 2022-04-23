@@ -1500,6 +1500,76 @@ local items = {
 		184205, -- Long Lost Crown
 		184224, -- Dapperling Seeds
 		184225, -- Small Posable Skeleton
+
+		-- 9.1.0
+		185960, -- Vestige of Origins
+		186017, -- Korthite Crystal
+
+		-- 9.2.0
+		187633, -- Bufonid Lattice
+		187634, -- Ambystan Lattice
+		187635, -- Cervid Lattice
+		187636, -- Aurelid Lattice
+		187699, -- First Flower
+		187700, -- Progenium Ore
+		187701, -- Protogenic Pelt
+		187702, -- Precursor Placoderm
+		187703, -- Silken Protofiber
+		187704, -- Protoflesh
+		187707, -- Progenitor Essentia
+		187741, -- Crafter's Mark IV
+		187742, -- Crafter's Mark of the First Ones
+		187784, -- Vestige of the Eternal
+		187812, -- Empty Kettle
+		187823, -- Magically Regulated Automa Core
+		187825, -- Cosmic Protoweave
+		187827, -- Infusion: Corpse Purification
+		187829, -- Aealic Harmonizing Stone
+		187831, -- Pure-Air Sail Extensions
+		187836, -- Erratic Genesis Matrix
+		187849, -- Devourer Essence Stone
+		187850, -- Sustaining Armor Polish
+		188957, -- Genesis Mote
+		189145, -- Helicid Lattice
+		189146, -- Geomental Lattice
+		189147, -- Leporid Lattice
+		189148, -- Poultrid Lattice
+		189149, -- Proto Avian Lattice
+		189150, -- Raptora Lattice
+		189151, -- Scarabid Lattice
+		189152, -- Tarachnid Lattice
+		189153, -- Unformed Lattice
+		189154, -- Vespoid Lattice
+		189155, -- Viperid Lattice
+		189156, -- Vombata Lattice
+		189157, -- Glimmer of Animation
+		189158, -- Glimmer of Cunning
+		189159, -- Glimmer of Discovery
+		189160, -- Glimmer of Focus
+		189161, -- Glimmer of Malice
+		189162, -- Glimmer of Metamorphosis
+		189163, -- Glimmer of Motion
+		189164, -- Glimmer of Multiplicity
+		189165, -- Glimmer of Predation
+		189166, -- Glimmer of Renewal
+		189167, -- Glimmer of Satisfaction
+		189168, -- Glimmer of Serenity
+		189169, -- Glimmer of Survival
+		189170, -- Glimmer of Vigilance
+		189171, -- Bauble of Pure Innovation
+		189172, -- Crystallized Echo of the First Song
+		189173, -- Eternal Ragepearl
+		189174, -- Lens of Focused Intention
+		189175, -- Mawforged Bridle
+		189176, -- Protoform Sentience Crown
+		189177, -- Revelation Key
+		189178, -- Tools of Incomprehensible Experimentation
+		189179, -- Unalloyed Bronze Ingot
+		189180, -- Wind's Infinite Call
+		189500, -- Cervid Lattice
+		189501, -- Protoform Tool
+		190388, -- Lupine Lattice
+		191781, -- Vestige of the Devourers
 	}
 }
 
