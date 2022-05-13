@@ -1,6 +1,6 @@
 ## Interface: 90200
 ## Title: AdiBags - Trade Goods
-## Version: 1.0.9
+## Version: @project-version@
 ## Author: Haselnussbomber
 ## Dependencies: AdiBags
 
