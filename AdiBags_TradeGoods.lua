@@ -1288,10 +1288,6 @@ local items = {
 		168303, -- Rubbery Flank
 		168327, -- Chain Ignitercoil
 		168487, -- Zin'anthid
-		168583, -- Widowbloom
-		168586, -- Rising Glory
-		168589, -- Marrowroot
-		168591, -- Marrowroot Petal
 		168635, -- Leviathan's Eye
 		168645, -- Moist Fillet
 		168646, -- Mauve Stinger
@@ -1300,8 +1296,21 @@ local items = {
 		168662, -- Maroon Pigment
 		168663, -- Maroon Ink
 		168832, -- Galvanic Oscillator
-		169550, -- Rising Glory Petal
 		169610, -- S.P.A.R.E. Crate
+
+		-- 8.3.0
+		174327, -- Malformed Gnasher
+		174328, -- Aberrant Voidfin
+		174353, -- Questionable Meat
+	},
+
+	[LE_EXPANSION_SHADOWLANDS] = {
+		-- 8.2.0
+		168583, -- Widowbloom
+		168586, -- Rising Glory
+		168589, -- Marrowroot
+		168591, -- Marrowroot Petal
+		169550, -- Rising Glory Petal
 		169698, -- Widowbloom Petal
 		169699, -- Vigil's Torch Petal
 		169700, -- Death Blossom Petal
@@ -1309,12 +1318,7 @@ local items = {
 
 		-- 8.3.0
 		171315, -- Nightshade
-		174327, -- Malformed Gnasher
-		174328, -- Aberrant Voidfin
-		174353, -- Questionable Meat
-	},
 
-	[LE_EXPANSION_SHADOWLANDS] = {
 		-- 9.0.1
 		170554, -- Vigil's Torch
 		171287, -- Ground Death Blossom
