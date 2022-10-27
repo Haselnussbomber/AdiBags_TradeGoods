@@ -1,0 +1,4 @@
+manual-changelog: RELEASE_NOTES.md
+ignore:
+  - README.md
+  - CHANGELOG.md

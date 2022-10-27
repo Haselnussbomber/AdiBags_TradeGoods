@@ -1,9 +1,6 @@
-name: Package and release
+name: Package and release (test)
 
 on:
-  push:
-    tags:
-      - '**'
   workflow_dispatch:
 
 jobs:
@@ -21,5 +18,10 @@ jobs:
 
       - name: Package and release
         uses: BigWigsMods/packager@v2
-        env:
-          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          args: -d
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: artifact
+          path: .release/
