@@ -1,6 +1,6 @@
 # Changelog
 
-### [2.0] (2022-10-27)
+### [2.0] (2022-10-28)
 
 Update for Dragonflight  
 Now uses data from GetItemInfo(), so it's no longer needed to update every patch.
@@ -43,13 +43,13 @@ Update for 7.3
 Update TOC for 7.2
 
 [Unreleased]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v2.0...HEAD
-[2.0] https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.10...v2.0
-[1.0.10] https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.9...v1.0.10
-[1.0.9] https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.8...v1.0.9
-[1.0.8] https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.7...v1.0.8
-[1.0.7] https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.6...v1.0.7
-[1.0.6] https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.5...v1.0.6
-[1.0.5] https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.4...v1.0.5
-[1.0.4] https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.3...v1.0.4
-[1.0.3] https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.2...v1.0.3
-[1.0.2] https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/313f055e...v1.0.2
+[2.0]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.10...v2.0
+[1.0.10]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.9...v1.0.10
+[1.0.9]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.8...v1.0.9
+[1.0.8]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.7...v1.0.8
+[1.0.7]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.6...v1.0.7
+[1.0.6]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.5...v1.0.6
+[1.0.5]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.4...v1.0.5
+[1.0.4]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.3...v1.0.4
+[1.0.3]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.2...v1.0.3
+[1.0.2]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/313f055e...v1.0.2
