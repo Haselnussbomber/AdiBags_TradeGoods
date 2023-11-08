@@ -1,44 +1,48 @@
 # Changelog
 
-### [2.0] (2022-10-28)
+## [2.0.1] (2022-11-08)
+
+Updated Interface version for Patch 10.2.
+
+## [2.0] (2022-10-28)
 
 Update for Dragonflight  
 Now uses data from GetItemInfo(), so it's no longer needed to update every patch.
 
-### [1.0.10] (2022-05-14)
+## [1.0.10] (2022-05-14)
 
 Fix some Shadowlands mats that were added in the wrong expansion set.
 
-### [1.0.9] (2022-05-13)
+## [1.0.9] (2022-05-13)
 
 Update for 9.1.0 and 9.2.0  
 Added missing crafting reagents, which are not in the Trade Goods category.
 
-### [1.0.8] (2020-11-28)
+## [1.0.8] (2020-11-28)
 
 Update for 8.3.0 and 9.0.1
 
-### [1.0.7] (2019-08-19)
+## [1.0.7] (2019-08-19)
 
 Update for 8.2.0
 
-### [1.0.6] (2019-05-13)
+## [1.0.6] (2019-05-13)
 
 Update for 8.1.5
 
-### [1.0.5] (2018-12-21)
+## [1.0.5] (2018-12-21)
 
 Update for 8.1.0
 
-### [1.0.4] (2018-07-16)
+## [1.0.4] (2018-07-16)
 
 Updated interface version, addon version, author.
 
-### [1.0.3] (2017-08-30)
+## [1.0.3] (2017-08-30)
 
 Update for 7.3
 
-### [1.0.2] (2017-04-15)
+## [1.0.2] (2017-04-15)
 
 Update TOC for 7.2
 
