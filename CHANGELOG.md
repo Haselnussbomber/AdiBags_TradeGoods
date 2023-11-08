@@ -46,7 +46,8 @@ Update for 7.3
 
 Update TOC for 7.2
 
-[Unreleased]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v2.0...HEAD
+[Unreleased]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/main...HEAD
+[2.0.1]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v2.0...v2.0.1
 [2.0]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.10...v2.0
 [1.0.10]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.9...v1.0.10
 [1.0.9]: https://github.com/Haselnussbomber/AdiBags_TradeGoods/compare/v1.0.8...v1.0.9
